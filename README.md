@@ -1,6 +1,6 @@
 # FOOD TRUCK FINDER
-A python (`3.5`) command line interface (CLI) program that displays currently open food trucks in San Fransico Area.
-The program queries the Scrota API for the San Fransico dataset [Mobile Food Truck Schedules](https://dev.socrata.com/foundry/data.sfgov.org/jjew-r69b).
+A python (`3.5`) command line interface (CLI) program that displays currently open food trucks in San Fransisco Area.
+The program queries the Scrota API for the San Fransisco dataset [Mobile Food Truck Schedules](https://dev.socrata.com/foundry/data.sfgov.org/jjew-r69b).
 
 
 ## TL;DR

@@ -1,5 +1,5 @@
-# Food Truck Finder
-Python (`3.5`) command line interface (CLI) program that displays currently open food trucks in San Fransico Area.
+# FOOD TRUCK FINDER
+A python (`3.5`) command line interface (CLI) program that displays currently open food trucks in San Fransico Area.
 The program queries the Scrota API for the San Fransico dataset [Mobile Food Truck Schedules](https://dev.socrata.com/foundry/data.sfgov.org/jjew-r69b).
 
 
@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 python3 show_open_food_trucks.py
 ```
 
-## DOCKER STUFF
+## Prefer Docker?
 
 ### Build
 ```bash
@@ -20,6 +20,6 @@ docker build -t food-truck-finder:latest .
 docker run -i food-truck-finder:latest
 ```
 
-## FUTURE WORK
+## Future Work...
 
 To convert this simple CLI service into a browser-based web application requires a re-write. My design would involve a simple staticly hosted website (pure html/javascript). No need for any complex backend API server. The Socrata API can be queried directly from client browsers via Javascript. I would choose S3 or GCS to host static website files.

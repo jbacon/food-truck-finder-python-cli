@@ -18,7 +18,7 @@ docker build -t food-truck-finder:latest .
 ### Run
 ```bash
 docker run -i food-truck-finder:latest
-```P
+```
 
 ## Proposal Write-Up - Proof-of-Concept to Production
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-# Make sure to install requests before running:
-# > pip install requests
-# Documentation for the requests library can be found here: http://docs.python-requests.org/en/master/
-
 import requests
 import sys
 import os
@@ -15,7 +11,6 @@ def main(argv):
     page = 1
     while True:
         data = get_data(page, datetime.now())
-        # dataframe = pd.DataFrame.from_records(data)
         for row in data:
             print("{:<30} {:<30}".format(row["applicant"], row["location"]))
         page += 1
